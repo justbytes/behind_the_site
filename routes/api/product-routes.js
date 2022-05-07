@@ -47,7 +47,6 @@ router.post('/', async (req, res) => {
   .catch((err) => {
     res.json(err);
   });
-});
   
   Product.create(req.body)
     .then((product) => {
@@ -69,6 +68,7 @@ router.post('/', async (req, res) => {
       console.log(err);
       res.status(400).json(err);
     });
+});
 
 
 // update product

@@ -18,7 +18,7 @@ Product.belongsToMany(Tag, {
     model: ProductTag,
   },
   // Define an alias for when data is retrieved
-  as: 'product_tag'
+  as: 'p_tag'
 });
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
