@@ -4,7 +4,7 @@
 
 ## Description
 
-My motivation for this product was to create a tool for someone trying to keep track of their store. I wanted to make this to test my backend skills and possibly help a local buisness. If this project was complete it would help someone organize the stock of they're products.
+My motivation for this app was for users trying to keep track of their store's inventory. 
 
 ## Table of Contents
 
