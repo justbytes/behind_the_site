@@ -4,14 +4,13 @@
 
 ## Description
 
-My motivation for this app was for users trying to keep track of their store's inventory. 
+This project was created for users that want to keep track of inventory for their E-commerce store. In this app users can view, add, and delete items from your database.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 
 ### Installation
@@ -19,37 +18,35 @@ My motivation for this app was for users trying to keep track of their store's i
 To install necessary dependencies, run the following command
 
 ```md
+npm init -y
 npm i
 ```
 
 ### Usage
 
+Copy the env files and put in your mysql info.
+
 ```md
 cp .env.EXAMPLE .env
 ```
 
-Then put in your personal info. Then proceed with the next commands.
+Next you will need to create and seed the database by inputing the following commands:
 
 ```md
 mysql -u root < db/schema.sql
-npm i
-npm run seed npm start
+npm run seed
 ```
 
-### Contrnode ibuting
-
-Fork the repo and submit pull request.
-
-### Tests
-
-To run tests, run the following command:
+Finally start the app by runnng the following command:
 
 ```md
-There are no test for this project
+npm run start
 ```
+
+### Contributing
+
+If you would like to contribute please fork the repo and submit a pull request.
 
 ### Questions
 
-Please contact me throught Github my username is jessemarino.
-
-URL for Video walkthrough: https://drive.google.com/file/d/1FNY-Ne2Re9BSNxhO_h2mNjUJykCRrve_/view
+If you have any questions please reach out via Github, my username is jessemarino.
