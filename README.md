@@ -42,11 +42,3 @@ Finally start the app by runnng the following command:
 ```md
 npm run start
 ```
-
-### Contributing
-
-If you would like to contribute please fork the repo and submit a pull request.
-
-### Questions
-
-If you have any questions please reach out via Github, my username is jessemarino.
