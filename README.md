@@ -10,8 +10,6 @@ This project was created for users that want to keep track of inventory for thei
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [Questions](#questions)
 
 ### Installation
 
