@@ -1,11 +1,3 @@
-# Behind the Site
-
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
-
-## Description
-
-This project was created for users that want to keep track of inventory for their E-commerce store. In this app users can view, add, and delete items from your database.
-
 ## Table of Contents
 
 - [Installation](#installation)
